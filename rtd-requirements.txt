@@ -17,3 +17,4 @@ aiofiles; python_version >= '3.5'
 dataclasses; python_version < '3.7'
 m2r2
 sphinx_rtd_theme
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
